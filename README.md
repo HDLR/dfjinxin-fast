@@ -76,6 +76,6 @@ dfjinxin-fast
 <br> 
 
  **数据返回规范类io.dfjinxin.common.adviceCommonResponseDataAdvice**
- 规范后台返回数据格式，返回数据必须是io.dfjinxin.common.utils.R，如果为按R格式返回，强制把返回的数据赋值R.ok().put(data, 返回数据类)返回
+- 规范后台返回数据格式，返回数据必须是io.dfjinxin.common.utils.R，如果为按R格式返回，强制把返回的数据赋值R.ok().put(data, 返回数据类)返回
  这样规范数据格式，统一序列化，前台页面js也可以定义全局方法判断返回的code除了正常0以为的状态为异常、未登录等状态，可以统一做弹窗、跳转
- 如有特殊情况不能返回R，可以添加定义的annotation类io.dfjinxin.common.annotation.IgnoreResponseAdvice在所在方法，或者类（如果类中的所有类都不能返回R）
+- 如有特殊情况不能返回R，可以添加定义的annotation类io.dfjinxin.common.annotation.IgnoreResponseAdvice在所在方法，或者类（如果类中的所有类都不能返回R）
