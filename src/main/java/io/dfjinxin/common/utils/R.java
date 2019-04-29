@@ -10,6 +10,7 @@ package io.dfjinxin.common.utils;
 
 import org.apache.http.HttpStatus;
 
+import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -18,7 +19,7 @@ import java.util.Map;
  *
  * @author Mark sunlightcs@gmail.com
  */
-public class R extends HashMap<String, Object> {
+public class R extends HashMap<String, Object> implements Serializable {
 	private static final long serialVersionUID = 1L;
 	
 	public R() {
