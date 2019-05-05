@@ -33,6 +33,14 @@ spring:
                     config:
                         multi-statement-allow: true
 
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    status-page-url: http://localhost:${server.port}
+    instance-id: dfjinxin-fast-1:${server.port}
+
 
 ##多数据源的配置
 #dynamic:

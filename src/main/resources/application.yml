@@ -37,6 +37,8 @@ spring:
         min-idle: 5       # 连接池中的最小空闲连接
   mvc:
     throw-exception-if-no-handler-found: true
+  application:
+    name: dfjinxin-fast
 #  resources:
 #    add-mappings: false
 
