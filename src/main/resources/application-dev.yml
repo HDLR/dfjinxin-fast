@@ -33,6 +33,7 @@ spring:
                     config:
                         multi-statement-allow: true
 
+#指向springcloud注册中心eureka
 eureka:
   client:
     serviceUrl:

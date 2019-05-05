@@ -38,7 +38,7 @@ spring:
   mvc:
     throw-exception-if-no-handler-found: true
   application:
-    name: dfjinxin-fast
+    name: dfjinxin-fast   #用于springcloud
 #  resources:
 #    add-mappings: false
 
